@@ -1,0 +1,54 @@
+/* h1{
+    color: fuchsia;
+}
+ h2.one{
+    color: goldenrod;   /*This has a specificity of 011 because class selectors are 010 + element selector 001 
+}  */
+
+/* .one{
+    font-size: 50px;  /* Has a specificity of 010
+    color: yellow;
+}*/
+
+/* section h2 .one{
+color: #913434;     /* This has a specificity of  012 
+} */
+
+/* pseudoclass selectors  has specificity of 010*/
+
+/* ul li{
+ border: 10px double green;
+ margin-top: 20px;
+}
+
+
+ul :nth-child(5){
+      border: 10px double rgb(218, 218, 88);
+}
+
+ul :nth-child(even){
+      border: 10px double rgb(218, 218, 88);
+}
+ul :first-child, ul :last-child{
+    border: 10px double violet;
+}
+
+ul :nth-child(3n+3){
+      border: 10px double rgb(35, 27, 33);
+} */
+/*ul>:nth-child(2n+2){
+    border: 10px double blue;  /* greater than is direct child selector, while space ia all child selector. 2n+2 also means even
+} */
+/* 
+li:first-of-type{
+    color: #913434;
+}
+
+li:last-of-type{
+    color: blue;
+}
+
+li:nth-of-type(2n+1){
+background-color: yellow;
+} */
+ 

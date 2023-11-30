@@ -1,0 +1,35 @@
+/* p{
+    color: #f0f;
+    background-color: rgb(199,145,29);
+    background-color: rgba(150,97,5,43.3);
+    background-color: rgb(255,255,0);
+    background-color: #ff0;
+
+} */
+
+section:first-of-type{
+    /* background: linear-gradient(90deg, green 33%, #fff 33%, #fff 66%, green 66%); */
+    /* background: linear-gradient(180deg, red, orange, yellow, green , blue, indigo, violet); */
+    /* background: linear-gradient(to top, yellow 45%, crimson 45%); to top is equiv -180deg, to left is -90deg and vice versa */
+    background: linear-gradient(to top left, green 33%, #fff 33%, #fff 66%, green 66%);
+}
+
+section:nth-of-type(2){
+    background: radial-gradient(circle, crimson 20%, violet 20%, green 20%, yellow)
+}
+
+section:last-of-type{
+    /* background: conic-gradient(
+   red, orange, yellow, green , blue, indigo, violet
+); */
+    background:linear-gradient(
+  to bottom right, red, orange, yellow, green , blue, indigo, violet
+);
+color: transparent;    /* To use gradient on text, you have to set the color as transparent, and then use background clip to clip the gradient background to text. You have to add a "webkit" prefix for it to work in most cases*/
+-webkit-background-clip: text; 
+
+}
+
+aside{
+    background: repeating-linear-gradient(30deg, red 13%, violet 18%);
+}

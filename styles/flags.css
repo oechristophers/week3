@@ -1,0 +1,23 @@
+section:first-of-type{
+     background: radial-gradient(circle, crimson 20%, white 20%)
+}
+
+section:nth-of-type(2){
+     background: linear-gradient(90deg, green 33%, #fff 33%, #fff 66%, green 66%);
+}
+
+section:nth-of-type(3){
+     background: linear-gradient(90deg, black 33%, yellow 33%, yellow 66%, red 66%);
+}
+
+section:nth-of-type(4){
+     background: linear-gradient(90deg, rgb(5, 5, 72) 33%, white 33%, white 66%, red 66%);
+}
+
+section:nth-of-type(5){
+     background: linear-gradient(to bottom, rgb(165, 11, 11) 30%, white 30%, white 35%,rgb(9, 9, 156) 35%, rgb(9, 9, 156) 65%, white 65%, white 70%, rgb(6, 95, 6) 70%);
+}
+
+section:last-of-type{
+    background: linear-gradient(to bottom, green 33%, rgb(213, 213, 10) 33%, rgb(209, 209, 11) 66%, rgb(9, 9, 145) 66%);
+}

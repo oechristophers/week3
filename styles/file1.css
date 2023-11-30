@@ -1,0 +1,43 @@
+/* Cascading and specificity */
+/* Selectors at the unit  001 are element selctors eg, h1, h2..*/
+ /* 002 is with respect to parent eg main h1{} parent selector or child selector an indirect parent selector will look like body h1{}*/
+ /* 003 is with respect to parent eg body main h1{} */
+
+ /* Cascading rule takes whatever style comes last on a particular selector and for a particular property. Cascading rule only worls when the spcificity are the same, if not, th one with higher specificity will overule.
+ Specificity include element, class, id... etc */
+/* 
+ *{
+    border-right: 10px double green;
+    border-left: 10px double green;
+ } */
+
+ /* body main h1{
+    color: pink;
+ }
+ main h1{
+    color: red;
+ }
+ 
+h1{
+    color:burlywood;
+  
+}
+
+h1{
+    
+    color:green;
+}
+
+h2 ~ p{
+    background-color: crimson;
+}
+
+h2 + p{
+    background-color: purple;
+}
+
+p{
+    background-color: beige;
+} */
+
+
