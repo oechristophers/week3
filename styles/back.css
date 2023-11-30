@@ -1,0 +1,34 @@
+body>:first-child{
+    background-image: url(../Favicon/dami-akinbode-mxfzQRCBQ5M-unsplash.jpg);
+    background-size: contain;
+    /* background-repeat: no-repeat; */
+}
+
+
+body>:nth-child(2){
+    background-image: url(../Favicon/joshua-oluwagbemiga-t6nqZ0n3i-k-unsplash.jpg);
+      background-size: 200px;
+      background-repeat: no-repeat;
+}
+
+body>:nth-child(3){
+    background-image: url(../Favicon/joshua-oluwagbemiga-t6nqZ0n3i-k-unsplash.jpg), url(../Favicon/dami-akinbode-mxfzQRCBQ5M-unsplash.jpg), url(../Favicon/emmanuel-ikwuegbu-5ibsX1Ewh7M-unsplash.jpg), linear-gradient(to left, crimson, violet);
+      background-size: 100px, 150px, 150px;
+      background-position: top left, center top, bottom right;
+      background-repeat:repeat-y, repeat-x,no-repeat ,repeat;
+}
+
+
+body>:nth-child(4){
+    background-image: url(../Favicon/Brighton\ main.jpg), url(../Favicon/omotayo-tajudeen-ME416b6sp2I-unsplash.jpg), url(../Favicon/vonecia-carswell-3cBFqagweZM-unsplash.jpg), url(../Favicon/emmanuel-ikwuegbu-5ibsX1Ewh7M-unsplash.jpg);
+    background-position: 50px 50px, 100px 50px, 190px 50px, 290px 50px ;
+     background-size: 100px;
+     background-repeat: no-repeat;
+}
+
+body>:nth-child(5){
+    background-image: url(../Favicon/star.png),url(../Favicon/star.png),url(../Favicon/star.png),url(../Favicon/star.png), url(../Favicon/star.png), linear-gradient(to left, red, red);
+     background-size: 100px, 30px, 30px, 30px,30px, 500px;
+    background-repeat: no-repeat;
+    background-position: 10px 10px, 110px 10px, 140px 50px, 125px 95px, 90px 125px, 0px 0px ;
+}
